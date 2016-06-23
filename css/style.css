@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700);
+
 body {
 /*   background-color: whitesmoke; */
 }
@@ -54,6 +56,10 @@ body {
 .footer {
   margin-top: 20px;
   background-color: #3976C9;
+}
+
+.portfolio-item img {
+  border-radius: 7px;
 }
 
 @media (max-width: 768px) {
