@@ -62,6 +62,10 @@ body {
   border-radius: 7px;
 }
 
+.skills {
+  width: 80px;
+}
+
 @media (max-width: 768px) {
   .ending-text, #desc2 {
     display: none;
