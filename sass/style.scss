@@ -1,12 +1,17 @@
 $mainColor: #104b63;
 
-a {
-  text-decoration: underline !important;
-  text-decoration-color: black !important;
-}
+
 
 #desc1 {
   color: $mainColor !important;
+}
+
+#desc2 > a {
+  color: $mainColor !important;
+  text-decoration: underline;
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 .navbar {
@@ -59,6 +64,9 @@ a {
 .portfolio-item {
   img {
     border-radius: 7px;
+  }
+  a:hover {
+    color: #FF4764;
   }
   h3 {
     color: black;

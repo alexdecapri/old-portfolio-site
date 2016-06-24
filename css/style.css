@@ -1,9 +1,11 @@
-a {
-  text-decoration: underline !important;
-  text-decoration-color: black !important; }
-
 #desc1 {
   color: #104b63 !important; }
+
+#desc2 > a {
+  color: #104b63 !important;
+  text-decoration: underline; }
+  #desc2 > a:hover {
+    opacity: 0.75; }
 
 .navbar {
   background-color: #104b63;
@@ -38,6 +40,9 @@ a {
 
 .portfolio-item img {
   border-radius: 7px; }
+
+.portfolio-item a:hover {
+  color: #FF4764; }
 
 .portfolio-item h3 {
   color: black; }
