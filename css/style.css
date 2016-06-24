@@ -1,97 +1,64 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700);
+a {
+  text-decoration: underline !important;
+  text-decoration-color: black !important; }
 
-body {
-/*   background-color: whitesmoke; */
-}
+#desc1 {
+  color: #104b63 !important; }
 
 .navbar {
-  background-color: #3976C9;
-  border: #3976C9;
-}
+  background-color: #104b63;
+  border: #104b63;
+  border-radius: 0px 0px 5px 5px; }
+  .navbar .navbar-header .navbar-brand {
+    color: white; }
 
-.navbar-header .navbar-brand {
-  color: white;
-}
-
-.navbar-header .navbar-brand:hover {
-  color: white;
-}
-
-.navbar-nav.navbar-right li a {
-  color: white;
-}
-
-.navbar-nav.navbar-right li a:hover {
-  color: white;
-}
-
-
-.jumbotron {
-
-}
-
-.portfolio-item h3 {
-  color: #3976C9;
-}
-
+.navbar-default .navbar-nav li a {
+  color: white; }
+  .navbar-default .navbar-nav li a:visited {
+    color: white; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #cccccc; }
 
 .jumbotron img {
   max-height: 350px;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .ending-text {
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .fa {
   padding: 10px;
-  color: white;
-}
-
-.fa:hover {
-  color: #CCCCCC;
-}
+  color: white; }
+  .fa:hover {
+    opacity: 0.75; }
 
 .footer {
   margin-top: 20px;
-  background-color: #3976C9;
-}
+  background-color: #104b63; }
 
 .portfolio-item img {
-  border-radius: 7px;
-}
+  border-radius: 7px; }
+
+.portfolio-item h3 {
+  color: black; }
 
 .skills {
   height: 80px;
-  margin: 5px auto;
-}
+  margin: 5px auto; }
 
 .skills-text {
   text-align: center;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 @media (max-width: 768px) {
   .ending-text, #desc2 {
-    display: none;
-  }
+    display: none; }
   #self-image {
     margin: 0 auto;
-    height: 200px;
-  }
+    height: 200px; }
   #fullname, #desc1 {
-    text-align: center;
-  }
-}
+    text-align: center; } }
+
 @media (max-width: 992px) {
   #desc2 {
-    display: none;
-  }
-}
-
-/* .portfolio-item {
-  margin: 0 auto;
-}
-NEED TO FIX THIS IF IMAGE IS LESS THAN 768px, SEE PARAGRAPH TEXT AS WELL
-*/
+    display: none; } }
