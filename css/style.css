@@ -76,8 +76,6 @@
 .fa {
   padding: 10px;
   color: white; }
-  .fa:hover {
-    opacity: 0.75; }
 
 .footer {
   margin-top: 20px;
@@ -99,6 +97,19 @@
 .skills-text {
   text-align: center;
   margin-top: 10px; }
+
+.effects {
+  -webkit-transition: -webkit-transform 500ms;
+  -moz-transition: -moz-transform 500ms;
+  -ms-transition: -ms-transform 500ms;
+  -o-transition: -o-transform 500ms;
+  transition: transform 500ms; }
+  .effects:hover {
+    -webkit-transform: rotate(360deg) scale(1.3);
+    -moz-transform: rotate(360deg) scale(1.3);
+    -ms-transform: rotate(360deg) scale(1.3);
+    -o-transform: rotate(360deg) scale(1.3);
+    transform: rotate(360deg) scale(1.3); }
 
 @media (max-width: 768px) {
   .ending-text, #desc2 {
