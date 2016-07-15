@@ -138,6 +138,22 @@ to   { opacity: 1; }
   }
 }
 
+.bigger {
+  -webkit-transition: -webkit-transform 600ms;
+  -moz-transition: -moz-transform 600ms;
+  -ms-transition: -ms-transform 600ms;
+  -o-transition: -o-transform 600ms;
+  transition: transform 600ms;
+
+  &:hover {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+  }
+}
+
 
 @media (max-width: 768px) {
   .ending-text, #desc2 {
